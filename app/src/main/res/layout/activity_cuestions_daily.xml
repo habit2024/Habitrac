@@ -1,0 +1,443 @@
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:padding="16dp">
+
+
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¡Preguntas Díarias!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+    <LinearLayout
+        android:id="@+id/ss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="¿En una escala del 1 al 10, ¿qué tan dificil fue para ti completar el hábito hoy??"
+          android:layout_marginBottom="8dp"
+          android:textSize="18sp"
+          android:textStyle="bold"
+          android:textColor="#238a8a"
+          android:padding="20dp"
+          />
+
+      <RadioGroup
+          android:id="@+id/question1_radio_group"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/question1_radio_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"/>
+
+        <RadioButton
+            android:id="@+id/question1_radio_button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"/>
+
+        <RadioButton
+            android:id="@+id/question1_radio_button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"/>
+
+        <RadioButton
+            android:id="@+id/question1_radio_button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"/>
+
+        <RadioButton
+            android:id="@+id/question1_radio_button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5"/>
+        <RadioButton
+            android:id="@+id/question1_radio_button51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6"/>
+        <RadioButton
+            android:id="@+id/question1_radio_button52"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7"/>
+        <RadioButton
+            android:id="@+id/question1_radio_button53"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8"/>
+        <RadioButton
+            android:id="@+id/question1_radio_button54"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9"/>
+        <RadioButton
+            android:id="@+id/question1_radio_button55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10"/>
+
+      </RadioGroup>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/s2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="¿Cómo te sientes después de cumplir con este hábito hoy?"
+          android:layout_marginBottom="8dp"
+          android:textSize="18sp"
+          android:textStyle="bold"
+          android:textColor="#238a8a"
+          android:padding="20dp"/>
+
+      <RadioGroup
+          android:id="@+id/question2_radio_group"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/question2_radio_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Energizado/a"/>
+
+        <RadioButton
+            android:id="@+id/question2_radio_button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Satisfecho/a"/>
+
+        <RadioButton
+            android:id="@+id/question2_radio_button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tranquilo/a"/>
+
+        <RadioButton
+            android:id="@+id/question2_radio_button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Motivado/a"/>
+        <RadioButton
+            android:id="@+id/question2_radio_button4plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Insatisfecho/a"/>
+
+        <RadioButton
+            android:id="@+id/question2_radio_button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Otro (especificar)"/>
+        <EditText
+            android:id="@+id/question2_other_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:hint="Especifica tu opción"
+            android:enabled="false" />
+      </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/s3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="¿Encontraste algún obstáculo específico al cumplir con este hábito hoy?"
+          android:layout_marginBottom="8dp"
+          android:textSize="18sp"
+          android:textStyle="bold"
+          android:textColor="#238a8a"
+          android:padding="20dp"/>
+      <RadioGroup
+          android:id="@+id/question3_radio_group"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/question3_radio_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Si"/>
+
+        <RadioButton
+            android:id="@+id/question3_radio_button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No"/>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/yesL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="¿Cuál?"
+              android:layout_marginBottom="8dp"
+              android:textSize="14sp"
+              android:textStyle="bold"
+              android:textColor="#238a8a"
+              android:padding="5dp"/>
+
+          <RadioButton
+              android:id="@+id/question3_radio_button3"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Falta de tiempo"/>
+
+          <RadioButton
+              android:id="@+id/question3_radio_button4"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Falta de motivación"/>
+
+          <RadioButton
+              android:id="@+id/question3_radio_button5"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Estrés"/>
+          <RadioButton
+              android:id="@+id/question3_radio_button6"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Otro (especificar)"/>
+
+          <EditText
+              android:id="@+id/otherYes"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:visibility="gone"
+              android:hint="Especifica tu opción"
+              android:enabled="false" />
+
+        </LinearLayout>
+
+
+
+      </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/s4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="¿Cómo te sentiste el dia de hoy?"
+          android:layout_marginBottom="8dp"
+          android:textSize="18sp"
+          android:textStyle="bold"
+          android:textColor="#238a8a"
+          android:padding="20dp"/>
+      <RadioGroup
+          android:id="@+id/question4_radio_group"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/question4_radio_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aburrido"/>
+
+        <RadioButton
+            android:id="@+id/question4_radio_button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alegre"/>
+
+        <RadioButton
+            android:id="@+id/question4_radio_button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ansioso"/>
+        <RadioButton
+            android:id="@+id/question4_radio_button31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confuso"/>
+        <RadioButton
+            android:id="@+id/question4_radio_button32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Divertido"/>
+        <RadioButton
+            android:id="@+id/question4_radio_button33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enfadado"/>
+        <RadioButton
+            android:id="@+id/question4_radio_button34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Triste"/>
+        <RadioButton
+            android:id="@+id/question4_radio_button35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vergüenza"/>
+        <RadioButton
+            android:id="@+id/question4_radio_button36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vulnerable"/>
+
+      </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/s5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="¿Qué factores consideras que podrian dificultar el establecimiento de hábitos en tu rutina diaria?"
+          android:layout_marginBottom="8dp"
+          android:textSize="18sp"
+          android:textStyle="bold"
+          android:textColor="#238a8a"
+          android:padding="20dp"/>
+      <RadioGroup
+          android:id="@+id/question5_radio_group"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/question5_radio_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Falta de tiempo"/>
+
+        <RadioButton
+            android:id="@+id/question5_radio_button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Falta de motivación"/>
+
+        <RadioButton
+            android:id="@+id/question5_radio_button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Estrés"/>
+
+        <RadioButton
+            android:id="@+id/question5_radio_button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Otro (especificar)"/>
+        <EditText
+            android:id="@+id/question3_other_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:hint="Especifica tu opción"
+            android:enabled="false" />
+
+
+      </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/s6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="¿Prefieres hábitos que se centren en tu bienestar fisico, mental o ambos?"
+          android:layout_marginBottom="8dp"
+          android:textSize="18sp"
+          android:textStyle="bold"
+          android:textColor="#238a8a"
+          android:padding="20dp"/>
+      <RadioGroup
+          android:id="@+id/question6_radio_group"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/question6_radio_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Físico"/>
+
+        <RadioButton
+            android:id="@+id/question6_radio_button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mental"/>
+
+        <RadioButton
+            android:id="@+id/question6_radio_button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ambos por igual"/>
+
+
+
+      </RadioGroup>
+    </LinearLayout>
+
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:id="@+id/next_button"
+
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Siguiente"  />
+
+
+
+
+
+  </LinearLayout>
+</ScrollView>

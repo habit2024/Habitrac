@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1010031463196",
+    "project_id": "habitrac-e8402",
+    "storage_bucket": "habitrac-e8402.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010031463196:android:2b04b118254cd38ebec8d9",
+        "android_client_info": {
+          "package_name": "app.habitrac.com"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCduuYkDJ-5hULoadTtpeffxYkwR6xrDFU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

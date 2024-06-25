@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Dashboard" />
+
+        <item
+            android:visible="false"
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/addn"
+            android:icon="@drawable/ic_baseline_add_circle_24"
+            android:title="Nuevo hábito" />
+        <item
+
+            android:icon="@drawable/ic_baseline_groups_24"
+            android:title="Comunidad" />
+        <item
+            android:id="@+id/chahtbot"
+            android:icon="@drawable/ic_baseline_support_agent_24"
+            android:title="Chatbot" />
+        <item
+            android:id="@+id/logros"
+            android:icon="@drawable/ic_baseline_emoji_events_24"
+            android:title="Logros" />
+
+        <item
+            android:id="@+id/calen"
+            android:icon="@drawable/ic_baseline_favorite_24"
+            android:title="Calendario emocional" />
+
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="Ajustes" />
+
+        <item
+            android:id="@+id/nav_close"
+            android:icon="@drawable/ic_baseline_exit_to_app_24"
+            android:title="Cerrar Sesión" />
+
+
+
+    </group>
+</menu>

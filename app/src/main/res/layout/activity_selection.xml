@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".activities.SelectionActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:layout_above="@id/next"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:padding="12sp"
+                android:text="@string/how_can_we_help_you"
+                android:textColor="@color/dark"
+                android:fontFamily="@font/airbnb"
+                android:textStyle="bold"
+                android:includeFontPadding="false" />
+
+            <TextView
+                android:id="@+id/pickOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:padding="12sp"
+                android:text="@string/pick_one"
+                android:textAllCaps="true"
+                android:textColor="@color/light"
+                android:fontFamily="@font/airbnb"
+                android:textStyle="bold"
+                android:includeFontPadding="false" />
+            <RadioGroup
+                android:id="@+id/question1_radio_group1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+                <RadioButton
+                    android:id="@+id/procastinating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/stop_procrastinating"/>
+
+                <RadioButton
+                    android:id="@+id/adhd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/manage_adhd_related_routine"/>
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/question1_radio_group2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+                <RadioButton
+                    android:id="@+id/time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/have_a_better_morning_routine"/>
+
+                <RadioButton
+                    android:id="@+id/focus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/focus_on_my_tasks_better"/>
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/question1_radio_group3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+                <RadioButton
+                    android:id="@+id/habit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/build_better_habits"/>
+
+                <RadioButton
+                    android:id="@+id/other"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/something_else_other"/>
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/airbnb"
+        android:padding="15sp"
+        android:textSize="16sp"
+        android:textColor="@color/text_white"
+        android:layout_alignParentBottom="true"
+        android:text="@string/next" />
+
+</RelativeLayout>

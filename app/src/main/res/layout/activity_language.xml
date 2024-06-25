@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".activities.LanguageActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:layout_above="@id/next"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/airbnb"
+            android:includeFontPadding="false"
+            android:padding="12sp"
+            android:text="@string/choose_you_language"
+            android:textColor="@color/dark"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pickOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/airbnb"
+            android:includeFontPadding="false"
+            android:padding="12sp"
+            android:text="@string/pick_one"
+            android:textAllCaps="true"
+            android:textColor="@color/light"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <RadioGroup
+            android:id="@+id/question1_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <RadioButton
+                android:id="@+id/english"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/english"/>
+
+            <RadioButton
+                android:id="@+id/spanish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/spanish"/>
+        </RadioGroup>
+
+
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/airbnb"
+        android:padding="15sp"
+        android:textSize="16sp"
+        android:textColor="@color/text_white"
+        android:layout_alignParentBottom="true"
+        android:text="@string/next" />
+
+
+</RelativeLayout>

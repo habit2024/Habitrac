@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?><manifest xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+package="app.habitrac.com">
+
+<uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+<application
+    android:name="app.habitrac.com.MyApplication"
+    android:allowBackup="true"
+    android:dataExtractionRules="@xml/data_extraction_rules"
+    android:fullBackupContent="@xml/backup_rules"
+    android:icon="@mipmap/ic_launcher"
+    android:label="@string/app_name"
+    android:roundIcon="@mipmap/ic_launcher_round"
+    android:supportsRtl="true"
+    android:theme="@style/Theme.RoutineApp"
+    tools:targetApi="31">
+    <activity
+        android:name=".SplashScreen"
+        android:exported="false">
+        <meta-data
+            android:name="android.app.lib_name"
+            android:value="" />
+    </activity>
+    <activity
+        android:name=".RegisterActivity"
+        android:exported="false">
+        <meta-data
+            android:name="android.app.lib_name"
+            android:value="" />
+    </activity>
+    <activity
+        android:name=".LoginActivity"
+        android:exported="false">
+
+
+        <meta-data
+            android:name="android.app.lib_name"
+            android:value="" />
+    </activity>
+    <activity
+        android:name=".MainActivity2"
+        android:exported="false">
+        <meta-data
+            android:name="android.app.lib_name"
+            android:value="" />
+    </activity>
+    <activity
+        android:name=".activities.LogrosActivity"
+        android:exported="false">
+        <meta-data
+            android:name="android.app.lib_name"
+            android:value="" />
+    </activity>
+
+    <activity
+        android:name="app.habitrac.com.activities.PaymentActivity"
+        android:exported="false" />
+    <activity
+        android:name="app.habitrac.com.activities.LanguageActivity"
+        android:exported="false" />
+    <activity
+        android:name="app.habitrac.com.activities.CompletedActivity"
+        android:exported="false" />
+    <activity
+        android:name="app.habitrac.com.activities.TimerActivity"
+        android:exported="false" />
+    <activity
+        android:name="app.habitrac.com.activities.EditRoutineActivity"
+        android:exported="false" />
+    <activity
+        android:name="app.habitrac.com.activities.RoutineStartActivity"
+        android:exported="false" />
+    <activity
+        android:name="app.habitrac.com.activities.AddCustomStepsActivity"
+        android:exported="false" />
+    <activity
+        android:name="app.habitrac.com.activities.CustomRoutineActivity"
+        android:exported="false" />
+    <activity
+        android:name="app.habitrac.com.activities.AddActivity"
+        android:exported="false" />
+    <activity
+        android:name="app.habitrac.com.activities.SettingActivity"
+        android:exported="false" />
+    <activity
+        android:name="app.habitrac.com.activities.SelectionActivity"
+        android:exported="false" />
+    <activity
+        android:name="app.habitrac.com.activities.ForgotActivity"
+        android:exported="false" />
+    <activity
+        android:name="app.habitrac.com.activities.SignUpActivity"
+        android:exported="false" />
+    <activity
+        android:name="app.habitrac.com.activities.LoginActivity"
+        android:exported="false" />
+    <activity
+        android:name="app.habitrac.com.WelcomeActivity"
+        android:exported="false" />
+    <activity
+        android:name="app.habitrac.com.SplashScreenActivity"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+    <activity
+        android:name="app.habitrac.com.MainActivity"
+        android:exported="false" />
+    <activity
+        android:name="app.habitrac.com.activities.MessageWelcome"
+        android:exported="false"
+
+        >
+        <meta-data
+            android:name="android.app.lib_name"
+            android:value="" />
+    </activity>
+    <activity
+        android:name="app.habitrac.com.activities.FisrtWelcomeQ"
+        android:exported="false"
+
+        >
+        <meta-data
+            android:name="android.app.lib_name"
+            android:value="" />
+    </activity>
+    <activity
+        android:name="app.habitrac.com.activities.CuestionsDaily"
+        android:exported="false"
+
+        >
+        <meta-data
+            android:name="android.app.lib_name"
+            android:value="" />
+    </activity>
+    <receiver
+        android:name="app.habitrac.com.notification.NotificationReceiver"
+        android:enabled="true"
+        android:exported="false" />
+    <receiver
+        android:name="app.habitrac.com.notification.RestartBootReceiiver"
+        android:enabled="true"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.BOOT_COMPLETED" />
+        </intent-filter>
+    </receiver>
+
+    <meta-data
+        android:name="com.google.android.gms.ads.APPLICATION_ID"
+        android:value="@string/AD_App_ID" />
+
+
+</application>
+
+</manifest>
+
+
+
+

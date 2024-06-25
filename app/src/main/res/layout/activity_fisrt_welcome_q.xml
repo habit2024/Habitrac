@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:padding="16dp">
+
+
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¡Queremos conocerte!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+    <LinearLayout
+        android:id="@+id/ss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:orientation="vertical">
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="¿Cómo te sientes actualmente con respecto a tu capacidad para establecer y mantener hábitos?"
+          android:layout_marginBottom="8dp"
+          android:textSize="18sp"
+          android:textStyle="bold"
+          android:textColor="#238a8a"
+          android:padding="20dp"
+          />
+
+      <RadioGroup
+          android:id="@+id/question1_radio_group"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/question1_radio_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Muy inseguro"/>
+
+        <RadioButton
+            android:id="@+id/question1_radio_button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inseguro"/>
+
+        <RadioButton
+            android:id="@+id/question1_radio_button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Neutro"/>
+
+        <RadioButton
+            android:id="@+id/question1_radio_button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seguro"/>
+
+        <RadioButton
+            android:id="@+id/question1_radio_button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Muy seguro"/>
+
+      </RadioGroup>
+
+
+    </LinearLayout>
+
+  <LinearLayout
+      android:visibility="gone"
+      android:id="@+id/s2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿Cuáles son tus metas a corto y largo plazo en términos de hábitos y bienestar?"
+        android:layout_marginBottom="8dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#238a8a"
+        android:padding="20dp"/>
+
+    <RadioGroup
+        android:id="@+id/question2_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+      <RadioButton
+          android:id="@+id/question2_radio_button1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Mejorar mi salud fisica"/>
+
+      <RadioButton
+          android:id="@+id/question2_radio_button2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Mejorar mi salud mental"/>
+
+      <RadioButton
+          android:id="@+id/question2_radio_button3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Lograr un equilibrio entre trabajo y vida"/>
+
+      <RadioButton
+          android:id="@+id/question2_radio_button4"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Desarrollar hábitos de estudio más efectivos"/>
+
+      <RadioButton
+          android:id="@+id/question2_radio_button5"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Otro (especificar)"/>
+      <EditText
+          android:id="@+id/question2_other_text"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:visibility="gone"
+          android:hint="Especifica tu opción"
+          android:enabled="false" />
+    </RadioGroup>
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:visibility="gone"
+      android:id="@+id/s3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿Cuáles son las áreas especificas de tu vida en las que te gustaria mejorar mediante la adopción de hábitos?"
+        android:layout_marginBottom="8dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#238a8a"
+        android:padding="20dp"/>
+    <RadioGroup
+        android:id="@+id/question3_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+      <RadioButton
+          android:id="@+id/question3_radio_button1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Estudio"/>
+
+      <RadioButton
+          android:id="@+id/question3_radio_button2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Alimentación"/>
+
+      <RadioButton
+          android:id="@+id/question3_radio_button3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Ejercicio"/>
+
+      <RadioButton
+          android:id="@+id/question3_radio_button4"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Meditación"/>
+
+      <RadioButton
+          android:id="@+id/question3_radio_button5"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Lectura"/>
+      <RadioButton
+          android:id="@+id/question3_radio_button6"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Sueño"/>
+    </RadioGroup>
+  </LinearLayout>
+
+  <LinearLayout
+      android:visibility="gone"
+      android:id="@+id/s4"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿Tienes alguna preferencia en cuanto a la dificultad de los hábitos que te gustaria adoptar?"
+        android:layout_marginBottom="8dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#238a8a"
+        android:padding="20dp"/>
+    <RadioGroup
+        android:id="@+id/question4_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+      <RadioButton
+          android:id="@+id/question4_radio_button1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Fácil"/>
+
+      <RadioButton
+          android:id="@+id/question4_radio_button2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Moderado"/>
+
+      <RadioButton
+          android:id="@+id/question4_radio_button3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Dificil"/>
+
+    </RadioGroup>
+  </LinearLayout>
+
+  <LinearLayout
+      android:visibility="gone"
+      android:id="@+id/s5"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿Qué factores consideras que podrian dificultar el establecimiento de hábitos en tu rutina diaria?"
+        android:layout_marginBottom="8dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#238a8a"
+        android:padding="20dp"/>
+    <RadioGroup
+        android:id="@+id/question5_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+      <RadioButton
+          android:id="@+id/question5_radio_button1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Falta de tiempo"/>
+
+      <RadioButton
+          android:id="@+id/question5_radio_button2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Falta de motivación"/>
+
+      <RadioButton
+          android:id="@+id/question5_radio_button3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Estrés"/>
+
+      <RadioButton
+          android:id="@+id/question5_radio_button4"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Otro (especificar)"/>
+      <EditText
+          android:id="@+id/question3_other_text"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:visibility="gone"
+          android:hint="Especifica tu opción"
+          android:enabled="false" />
+
+
+    </RadioGroup>
+  </LinearLayout>
+
+  <LinearLayout
+      android:visibility="gone"
+      android:id="@+id/s6"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿Prefieres hábitos que se centren en tu bienestar fisico, mental o ambos?"
+        android:layout_marginBottom="8dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#238a8a"
+        android:padding="20dp"/>
+    <RadioGroup
+        android:id="@+id/question6_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+      <RadioButton
+          android:id="@+id/question6_radio_button1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Físico"/>
+
+      <RadioButton
+          android:id="@+id/question6_radio_button2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Mental"/>
+
+      <RadioButton
+          android:id="@+id/question6_radio_button3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Ambos por igual"/>
+
+
+
+    </RadioGroup>
+  </LinearLayout>
+
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:id="@+id/next_button"
+
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Siguiente"  />
+
+
+
+
+
+  </LinearLayout>
+</ScrollView>

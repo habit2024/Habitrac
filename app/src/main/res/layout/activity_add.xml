@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".activities.AddActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+
+
+    <TextView
+        android:paddingLeft="20dp"
+        android:id="@+id/tittle1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_marginStart="12sp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/baloo"
+        android:gravity="center_vertical"
+        android:text="Nuevo hábito/reto"
+        android:textColor="@color/dark"
+        android:textSize="25sp" />
+
+    <TextView
+
+        android:padding="40dp"
+        android:id="@+id/tittle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tittle1"
+        android:layout_marginStart="12sp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/baloo"
+        android:gravity="center_vertical"
+        android:text="¿Que te gustaria crear el día de hoy?"
+        android:textColor="@color/dark"
+        android:textSize="25sp" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tittle"
+
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="15dp"
+            android:orientation="vertical">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/morning"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="10sp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="16sp"
+                app:cardElevation="4dp"
+                app:strokeWidth="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="12sp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/seperator"
+                            android:fontFamily="@font/airbnb"
+                            android:gravity="center_vertical"
+                            android:text="Nuevo hábito"
+                            android:textColor="@color/dark"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/poppins"
+                            android:includeFontPadding="false"
+                            android:text="@string/start_the_day_energized"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:id="@+id/image1"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:layout_margin="10sp"
+                        app:tint="@color/light"
+                        android:src="@drawable/cloud_sun" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/evening"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="10sp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="16sp"
+                app:cardElevation="4dp"
+                app:strokeWidth="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="12sp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/seperator"
+                            android:fontFamily="@font/airbnb"
+                            android:gravity="center_vertical"
+                            android:text="@string/evening_routine"
+                            android:textColor="@color/dark"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/poppins"
+                            android:includeFontPadding="false"
+                            android:text="@string/get_better_sleep"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:id="@+id/image2"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:layout_margin="10sp"
+                        app:tint="@color/light"
+                        android:src="@drawable/cloud_moon" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:visibility="gone"
+                android:id="@+id/study"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="10sp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="16sp"
+                app:cardElevation="4dp"
+                app:strokeWidth="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="12sp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/seperator"
+                            android:fontFamily="@font/airbnb"
+                            android:gravity="center_vertical"
+                            android:text="@string/study_routine"
+                            android:textColor="@color/dark"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/poppins"
+                            android:includeFontPadding="false"
+                            android:text="@string/better_focus_while_studying"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:id="@+id/image3"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:layout_margin="10sp"
+                        app:tint="@color/light"
+                        android:src="@drawable/graduation" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:visibility="gone"
+                android:id="@+id/brain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="10sp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="16sp"
+                app:cardElevation="4dp"
+                app:strokeWidth="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="12sp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/seperator"
+                            android:fontFamily="@font/airbnb"
+                            android:gravity="center_vertical"
+                            android:text="@string/selfcare_routine"
+                            android:textColor="@color/dark"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/poppins"
+                            android:includeFontPadding="false"
+                            android:text="@string/improve_your_mental_health"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:id="@+id/image4"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:layout_margin="10sp"
+                        app:tint="@color/light"
+                        android:src="@drawable/brain_solid" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:visibility="gone"
+                android:id="@+id/work"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="10sp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="16sp"
+                app:cardElevation="4dp"
+                app:strokeWidth="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="12sp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/seperator"
+                            android:fontFamily="@font/airbnb"
+                            android:gravity="center_vertical"
+                            android:text="@string/ready_for_work_routine"
+                            android:textColor="@color/dark"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/poppins"
+                            android:includeFontPadding="false"
+                            android:text="@string/get_more_done_with_a_ritual"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:id="@+id/image5"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:layout_margin="10sp"
+                        app:tint="@color/light"
+                        android:src="@drawable/person_digging" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+</RelativeLayout>

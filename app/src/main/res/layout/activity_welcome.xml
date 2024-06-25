@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light"
+    android:id="@+id/bg"
+    tools:context=".WelcomeActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:tint="#66FFFFFF"
+        android:src="@drawable/splash_circles" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:padding="12sp"
+        android:text="@string/app_name"
+        android:textColor="@color/text_white"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/baloo"
+        android:textStyle="bold"
+        android:includeFontPadding="false" />
+
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="300sp"
+                    android:src="@drawable/hablog" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="28sp"
+                    android:padding="12sp"
+                    android:text="Hábitos Saludables"
+                    android:textColor="@color/text_white"
+                    android:fontFamily="@font/airbnb"
+                    android:textStyle="bold"
+                    android:includeFontPadding="false" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:paddingStart="12sp"
+                    android:text="@string/change_your_life_by_slowly_adding_new_healthy_habits_and_sticking_to_them"
+                    android:textColor="@color/text"
+                    android:fontFamily="@font/airbnb"
+                    android:layout_marginBottom="15sp"
+                    android:includeFontPadding="false" />
+
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/continueBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    app:cardBackgroundColor="@color/background"
+                    app:cardCornerRadius="12sp"
+                    app:strokeWidth="0dp"
+                    app:cardElevation="6sp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:padding="12sp">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp"
+                            android:padding="12sp"
+                            android:text="@string/continue_with_e_mail"
+                            android:textColor="@color/dark"
+                            android:fontFamily="@font/airbnb"
+                            android:drawablePadding="12sp"
+                            android:drawableStart="@drawable/login"
+                            android:textStyle="bold"
+                            android:includeFontPadding="false" />
+
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:paddingHorizontal="12sp"
+                    android:text="@string/privacy"
+                    android:textColor="@color/text"
+                    android:fontFamily="@font/poppins"
+                    android:layout_marginBottom="15sp"
+                    android:includeFontPadding="false" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+</RelativeLayout>

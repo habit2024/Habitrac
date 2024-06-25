@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Habitrac</string>
+
+    <string name="privacy">Al continuar, aceptas los <u>Términos de Servicio</u> y la <u>Política de Privacidad</u></string>
+    <string name="hello_blank_fragment">Hola fragmento en blanco</string>
+    <string name="routines">1. Anota tus objetivos\n2. Anota tus objetivos\n3. Anota tus objetivos\n…</string>
+    <string name="pro_desc">🔓 <b>Libre de anuncios para siempre</b>: Di adiós a los anuncios para siempre. \n\n⚡ <b>Soporte prioritario</b>: Obtén asistencia de primera clase siempre que la necesites.</string>
+    <string name="create_your_routine_from_a_template_or_start_with_a_custom_one">Crea tu rutina a partir de una plantilla o comienza con una personalizada</string>
+    <string name="custom_routine">Hábito personalizado</string>
+    <string name="suggested_routines">Hábitoa sugeridos</string>
+    <string name="start_the_day_energized">Comienza el día lleno de energía</string>
+    <string name="morning_routine">Hábito matutino</string>
+    <string name="evening_routine">Hábito vespertino</string>
+    <string name="get_better_sleep">Mejora tu sueño</string>
+    <string name="study_routine">Hábito de estudio</string>
+    <string name="better_focus_while_studying">Mejora tu enfoque mientras estudias</string>
+    <string name="selfcare_routine">Hábito de autocuidado</string>
+    <string name="improve_your_mental_health">Mejora tu salud mental</string>
+    <string name="ready_for_work_routine">Preparado para la rutina de trabajo</string>
+    <string name="get_more_done_with_a_ritual">Haz más con un ritual</string>
+    <string name="name">Nombre</string>
+    <string name="custom_step">Paso personalizado</string>
+    <string name="time">Tiempo</string>
+    <string name="or">o</string>
+    <string name="no_explicit_time">Sin hora específica</string>
+    <string name="save_step">Guardar paso</string>
+    <string name="amazing_job">¡Trabajo increíble!</string>
+    <string name="you_have_completed_your_today_s_routine">Has completado tu rutina de hoy</string>
+    <string name="number_of_steps_you_completed">Número de pasos completados</string>
+    <string name="total_time">Tiempo total</string>
+    <string name="done">Hecho</string>
+    <string name="routine_name">Nombre de la rutina</string>
+    <string name="add_context">Agregar contexto</string>
+    <string name="pick_from_library_or_create_a_custom">Elegir de la biblioteca o crear un paso personalizado</string>
+    <string name="wake_up_in_the_morning">Despierta por la mañana</string>
+    <string name="days">Días</string>
+    <string name="reminder_timer">Temporizador de recordatorio</string>
+    <string name="add_time">Agregar tiempo</string>
+    <string name="create_new_steps">Crear nuevos pasos</string>
+    <string name="pick_from_library_of_steps_or_create_a_custom_step">Elegir de la biblioteca de pasos o crear un paso personalizado</string>
+    <string name="save">Guardar</string>
+    <string name="update">Actualizar</string>
+    <string name="enter_your_email_to_get_the_link_to_recover_password">Ingresa tu correo electrónico para obtener el enlace para recuperar la contraseña</string>
+    <string name="e_mail">Correo electrónico</string>
+    <string name="next">Siguiente</string>
+    <string name="choose_you_language">Elige tu idioma</string>
+    <string name="pick_one">Seleccionar uno</string>
+    <string name="password">Contraseña</string>
+    <string name="i_forgot_my_password">Olvidé mi contraseña</string>
+    <string name="don_t_have_account_let_s_create">¿No tienes cuenta? Creémosla</string>
+    <string name="cancel_anytime">Cancelar en cualquier momento</string>
+    <string name="ready_to_seize_the_opportunity_tap_upgrade_now_and_embark_on_a_limitless_journey_with_us">¿Listo para aprovechar la oportunidad? Toca \'Actualizar ahora\' y emprende un viaje ilimitado con nosotros.</string>
+    <string name="upgrade_now">Actualizar ahora</string>
+    <string name="unleash_the_full_experience">Desata la experiencia completa</string>
+    <string name="ad_free_and_premium_features_await">¡Sin anuncios y funciones premium te esperan!</string>
+    <string name="pros_of_becoming_a_member">Ventajas de ser miembro</string>
+    <string name="supercharge_your_experience_with_our">Potencia tu experiencia con nuestro</string>
+    <string name="monthly_subscription">Suscripción mensual</string>
+    <string name="elevate_your_experience_with_a">Mejora tu experiencia con una</string>
+    <string name="lifetime_subscription">Suscripción Anual</string>
+    <string name="edit_t">Editar\t</string>
+    <string name="if_you_start_now">Si comienzas ahora</string>
+    <string name="last_7_days">Últimos 7 días</string>
+    <string name="share_routine_t">Compartir rutina\t</string>
+    <string name="start">Iniciar</string>
+    <string name="how_can_we_help_you">¿Cómo podemos ayudarte?</string>
+    <string name="stop_procrastinating">Deja de procrastinar</string>
+    <string name="manage_adhd_related_routine">Gestiona la rutina relacionada con el TDAH</string>
+    <string name="have_a_better_morning_routine">Ten una mejor rutina matutina</string>
+    <string name="focus_on_my_tasks_better">Enfoca mejor mis tareas</string>
+    <string name="build_better_habits">Desarrolla mejores hábitos</string>
+    <string name="something_else_other">Otra cosa / Otro</string>
+    <string name="app_setting">Configuración de la aplicación</string>
+    <string name="enable_dark_mode">Activar el modo oscuro</string>
+    <string name="color_palette">Paleta de colores</string>
+    <string name="change_language">Cambiar idioma</string>
+    <string name="default_language">Idioma predeterminado</string>
+    <string name="routines_setting">Configuración de rutinas</string>
+    <string name="show_24h_time">Mostrar hora de 24 horas</string>
+    <string name="remove_ads">Eliminar anuncios</string>
+    <string name="go_pro">Ir a Pro</string>
+    <string name="contact_us">Contáctanos</string>
+    <string name="email_example_gmail_com">Correo electrónico: contacto@ikervitoria.com</string>
+    <string name="your_1_sentence_is_something_to_us">Tu frase es importante para nosotros</string>
+    <string name="follow_us_example">Síguenos en @ikervitoriapsicologo</string>
+    <string name="your_1_follow_help_us_to_motivate">Tu seguimiento nos ayuda a motivarnos</string>
+    <string name="faqs">Preguntas frecuentes</string>
+    <string name="how_to_duplicate_a_routine">¿Cómo duplicar una rutina?</string>
+    <string name="full_name">Nombre completo</string>
+    <string name="already_have_account_sign_in">¿Ya tienes una cuenta? Iniciar sesión</string>
+    <string name="now">Ahora</string>
+    <string name="next_step">Siguiente paso</string>
+    <string name="info">Información.</string>
+    <string name="routine_finished_approximately_at">Rutina finalizada aproximadamente a las:</string>
+    <string name="remaining_steps">Pasos restantes:</string>
+    <string name="reset_timer">Reiniciar</string>
+    <string name="skip">Saltar</string>
+    <string name="improve_your_routine">Mejora tu rutina</string>
+    <string name="change_your_life_by_slowly_adding_new_healthy_habits_and_sticking_to_them">Cambia tu vida agregando lentamente nuevos hábitos saludables y manteniéndolos.</string>
+    <string name="continue_with_e_mail">Continuar con correo electrónico</string>
+    <string name="please_wait">Por favor espera…</string>
+    <string name="edit_last_7_days">Editar últimos 7 días</string>
+    <string name="if_you_forgot_to_mark_your_routine_as_completed_you_can_change_it_here">Si olvidaste marcar tu rutina como completada, puedes cambiarla aquí.</string>
+    <string name="english">Inglés</string>
+    <string name="spanish">Español</string>
+    <string name="going_pretty_good">¡Vas muy bien!</string>
+
+
+    <string name="sunday_routines">Actividades del Domingo</string>
+    <string name="monday_routines">Actividades del Lunes</string>
+    <string name="tuesday_routines">Actividades del Martes</string>
+    <string name="wednesday_routines">Actividades del Miércoles</string>
+    <string name="thursday_routines">Actividades del Jueves</string>
+    <string name="friday_routines">Actividades del Viernes</string>
+    <string name="saturday_routines">Actividades del Sábado</string>
+
+    <string name="sunday">Domingo</string>
+    <string name="monday">Lunes</string>
+    <string name="tuesday">Martes</string>
+    <string name="wednesday">Miércoles</string>
+    <string name="thursday">Jueves</string>
+    <string name="friday">Viernes</string>
+    <string name="saturday">Sábado</string>
+
+    <string name="sun">Dom</string>
+    <string name="mon">Lun</string>
+    <string name="tue">Mar</string>
+    <string name="wed">Mié</string>
+    <string name="thu">Jue</string>
+    <string name="fri">Vie</string>
+    <string name="sat">Sáb</string>
+
+    <string name="today_routines">Actividades del día</string>
+    <string name="routines_followed">Hábitos Completados</string>
+    <string name="add_routine">Agregar Hábito/Reto</string>
+    <string name="add_custom_sep">Agregar Separador Personalizado</string>
+    <string name="no_reminder">Sin recordatorio</string>
+    <string name="add">Agregar</string>
+    <string name="select_time">Seleccionar Hora</string>
+    <string name="edit_routine">Editar Hábito</string>
+    <string name="delete_routine">Eliminar Hábito</string>
+    <string name="do_you_really_want_to_delete_this_routine">¿Realmente quieres eliminar este Hábito?</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="please_add_name_for_the_routine">Por favor agregue el nombre de l Hábito.</string>
+    <string name="please_add_at_least_one_day">Por favor agregue al menos un día</string>
+    <string name="please_add_at_least_one_step">Por favor agregue al menos un paso</string>
+    <string name="routine_created">Hábito creado</string>
+    <string name="routine_updated">Hábito actualizado</string>
+    <string name="routine_deleted">Hábito eliminado</string>
+    <string name="forgot_password">¿Has olvidado tu contraseña?</string>
+    <string name="a_password_reset_link_is_sent_to_your_email">Se envía un enlace para restablecer la contraseña a su correo electrónico</string>
+    <string name="email_is_empty">¡El correo electrónico está vacío!</string>
+    <string name="email_is_not_valid">¡El correo no es válido!</string>
+    <string name="languages">Idiomas</string>
+    <string name="password_is_empty">¡La contraseña está vacía!</string>
+    <string name="become_a_pro_member">Conviértete en miembro profesional</string>
+    <string name="_1_99_month">1,99€ / mes</string>
+    <string name="_9_99_month">9,99€ / año</string>
+    <string name="start_routine">Iniciar rutina</string>
+    <string name="startx">Habitrac</string>
+    <string name="steps"> pasos</string>
+    <string name="step"> paso</string>
+    <string name="you_already_finish_all_task">Ya terminaste toda la tarea.</string>
+    <string name="settings">Ajustes</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="do_you_really_want_to_logout">¿Realmente quieres cerrar sesión?</string>
+    <string name="select_which_describes_you">Selecciona cuál te describe</string>
+    <string name="create_account">Crear una cuenta</string>
+    <string name="_1_swipe_the_routine_card_to_the_side_n2_tap_on_duplicate_routine_n3_confirm">1. Desliza la tarjeta de rutina hacia un lado\n2. Toca \'duplicar rutina\'\n3. Confirmar</string>
+    <string name="i_m_having_problems_wih_the_notifications">Estoy teniendo problemas con las notificaciones</string>
+    <string name="how_to_edit_a_routine">¿Cómo editar una rutina?</string>
+    <string name="_1_tap_on_the_routine_n2_tap_on_the_edit_button_n3_edit_your_routine_n4_save_changes">1. Toca la rutina\n2. Toca el botón de editar\n3. Edita tu rutina\n4. Guarda los cambios</string>
+    <string name="can_i_reorder_tasks_while_doing_a_routine">¿Puedo reordenar tareas mientras hago una rutina?</string>
+    <string name="not_yet_but_you_can_use_the_push_task_to_the_end_button_to_go_to_the_next_task_and_do_the_current_task_later">Aún no, pero puedes usar el botón \'Enviar tarea al final\' para ir a la siguiente tarea y hacer la tarea actual más tarde.</string>
+    <string name="where_are_already_completed_routines">¿Dónde están las rutinas ya completadas?</string>
+    <string name="i_can_t_see_the_routine_somebody_has_shared_with_me">No puedo ver la rutina que alguien ha compartido conmigo</string>
+    <string name="please_tap_the_link_again_and_make_sure_routine_app_is_open_in_the_background_if_that_doesn_t_work_please_reach_out_to_me_at_example_gmail_com">Por favor, toca el enlace nuevamente y asegúrate de que la aplicación Rutina esté abierta en segundo plano. Si eso no funciona, contáctame en example@gmail.com</string>
+    <string name="delete_all_data_irreversible">Borrar todos los datos (irreversible)</string>
+    <string name="name_is_empty">¡El nombre está vacío!</string>
+    <string name="name_invalid_format">¡Ingrese más de 3 letras y no número.!</string>
+    <string name="_00_min">:00 minutos.</string>
+    <string name="you_re_done_with_everything">¡Ya terminaste con todo!</string>
+    <string name="mint_scheduled">minuto programado.</string>
+    <string name="left">minuto programado.</string>
+    <string name="mint">minuto.</string>
+    <string name="resume">Reanudar</string>
+    <string name="age_out_of_range">debe ser mayor a 10 y menor a 100</string>
+    <string name="password_invalid_format">la contraseña debe tener 8 caracteres o más, al menos una mayúscula y al menos un carácter especial.</string>
+    <string name="pause">Pausa</string>
+    <string name="tasks">Tareas</string>
+    <string name="add_steps">Agregar pasos</string>
+    <string name="_7_days">7 días</string>
+    <string name="_30_days">30 días</string>
+    <string name="_365_days">365 días</string>
+    <string name="do_you_really_want_to_delete">¿Realmente deseas eliminar todos tus datos?</string>
+
+    <string name="make_breakfast">Preparar el desayuno</string>
+    <string name="brush_teeth">Cepillar mis dientes</string>
+    <string name="make_bed">Hacer mi cama</string>
+    <string name="get_sunlight">Tomar un poco de sol</string>
+    <string name="stretch">Estirarme</string>
+    <string name="write_down_goals">Escribir mis metas</string>
+    <string name="wash_face">Lavarme la cara</string>
+    <string name="take_shower">Tomar una ducha</string>
+    <string name="meditate">Meditar</string>
+    <string name="drink_water">Beber agua</string>
+    <string name="make_coffee">Preparar un café</string>
+    <string name="write_grateful">Escribir por qué estoy agradecido/a</string>
+
+    <string name="wash_face_2">Lavarme la cara</string>
+    <string name="write_grateful_2">Escribir por qué estoy agradecido/a</string>
+    <string name="reflect_on_day">Reflexionar sobre mi día</string>
+    <string name="read_fiction">Leer algo de ficción</string>
+    <string name="talk_to_family">Hablar con mi familia</string>
+    <string name="meditate_2">Meditar</string>
+    <string name="write_down_goals_2">Escribir mis metas</string>
+    <string name="take_shower_2">Tomar una ducha</string>
+    <string name="prepare_outfit">Preparar la ropa para el día siguiente</string>
+    <string name="turn_off_electronics">Apagar los dispositivos electrónicos</string>
+    <string name="brush_teeth_2">Cepillar mis dientes</string>
+
+    <string name="answer_emails">Responder correos electrónicos</string>
+    <string name="short_break">Descanso corto</string>
+    <string name="deep_work">Trabajo profundo</string>
+    <string name="write_down_priorities">Escribir prioridades</string>
+    <string name="prepare_meetings">Preparar reuniones</string>
+    <string name="breathing_exercise">Hacer un ejercicio de respiración</string>
+    <string name="make_coffee_3">Preparar un café</string>
+    <string name="long_break">Descanso largo</string>
+    <string name="pomodoro">Técnica Pomodoro</string>
+
+    <string name="write_todo_list">Escribir mi lista de tareas</string>
+    <string name="exercise">Ejercicio</string>
+    <string name="write_grateful_4">Escribir por qué estoy agradecido/a</string>
+    <string name="take_warm_bath">Tomar un baño caliente</string>
+    <string name="take_loved_ones">Estar con seres queridos</string>
+    <string name="meditate_4">Meditar</string>
+    <string name="visualize_success">Visualizar el éxito</string>
+    <string name="org">Organización</string>
+    <string name="practice_problems">Hacer ejercicios de práctica</string>
+    <string name="study">Estudio</string>
+    <string name="read_subject">Leer sobre el tema</string>
+    <string name="breathing_exercise_5">Realizar un ejercicio de respiración</string>
+    <string name="figure_out">Descubrir lo que aún no entiendes</string>
+    <string name="write_task">Escribir tu tarea</string>
+    <string name="deep_work_5">Trabajo profundo</string>
+    <string name="prepare_desk">Preparar mi escritorio</string>
+    <string name="all_data_deleted_successfully">Todos los datos eliminados con éxito</string>
+    <string name="goodA">Buena Alimentación</string>
+    <string name="Lect">Lectura</string>
+    <string name="Sleep">Sueño</string>
+    <string name="other">Otro</string>
+    <string name="creative">Creatividad</string>
+    <string name="small">Sonrisa diaria</string>
+    <string name="elog">Elogio</string>
+    <string name="dance">Baile diario</string>
+    <string name="Pic">Foto creativa</string>
+    <string-array name="my_context_array">
+        <item>Después de despertar</item>
+        <item>Después de llegar a casa</item>
+        <item>Después de ver YouTube</item>
+        <item>Después de cepillarse los dientes</item>
+        <item>A las 3 AM</item>
+        <item>Después de revisar Instagram</item>
+    </string-array>
+
+    <string-array name="time_intervals">
+        <item>1 minuto</item>
+        <item>2 minutos</item>
+        <item>3 minutos</item>
+        <item>4 minutos</item>
+        <item>5 minutos</item>
+        <item>6 minutos</item>
+        <item>7 minutos</item>
+        <item>8 minutos</item>
+        <item>9 minutos</item>
+        <item>10 minutos</item>
+        <item>11 minutos</item>
+        <item>12 minutos</item>
+        <item>13 minutos</item>
+        <item>14 minutos</item>
+        <item>15 minutos</item>
+        <item>16 minutos</item>
+        <item>17 minutos</item>
+        <item>18 minutos</item>
+        <item>19 minutos</item>
+        <item>20 minutos</item>
+        <item>21 minutos</item>
+        <item>22 minutos</item>
+        <item>23 minutos</item>
+        <item>24 minutos</item>
+        <item>25 minutos</item>
+        <item>26 minutos</item>
+        <item>27 minutos</item>
+        <item>28 minutos</item>
+        <item>29 minutos</item>
+        <item>30 minutos</item>
+        <item>31 minutos</item>
+        <item>32 minutos</item>
+        <item>33 minutos</item>
+        <item>34 minutos</item>
+        <item>35 minutos</item>
+        <item>36 minutos</item>
+        <item>37 minutos</item>
+        <item>38 minutos</item>
+        <item>39 minutos</item>
+        <item>40 minutos</item>
+        <item>41 minutos</item>
+        <item>42 minutos</item>
+        <item>43 minutos</item>
+        <item>44 minutos</item>
+        <item>45 minutos</item>
+    </string-array>
+
+</resources>
